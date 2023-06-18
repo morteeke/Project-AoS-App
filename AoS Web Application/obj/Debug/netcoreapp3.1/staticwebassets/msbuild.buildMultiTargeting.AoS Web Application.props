@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AoS Web Application.props" />
+</Project>
