@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage"
+             Title="Age of Sigmar App">
+
+    <ScrollView>
+        <VerticalStackLayout
+            VerticalOptions="Start">
+
+            <Image
+                Source="warhammeraos.jpg"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="AoS app"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            
+            <Label 
+                Text="Username:"
+                FontSize="18"
+                Margin="10,0,0,0"
+                FontAttributes="Bold"
+                />
+
+            <Entry 
+                x:Name="UsernameField"
+                FontSize="16"
+                Margin="20,0,0,0"
+                Placeholder="Username"/>
+
+            <Label
+                Text="Password:"
+                FontAttributes="Bold"
+                Margin="10,0,0,0"
+                FontSize="18"/>
+
+            <Entry 
+                x:Name="PasswordField"
+                IsPassword="True"
+                Margin="20,0,0,0"
+                FontSize="16"
+                Placeholder="Password"/>
+
+            <Label
+                x:Name="CreateAccount"
+                Text="Create new account"
+                Margin="0,0,10,0"
+                HorizontalOptions="End"/>
+
+            <Label
+                x:Name="RecoverPassword"
+                Text="Forgotten password?"
+                Margin="0,0,10,0"
+                HorizontalOptions="End"/>
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Log in"
+                Margin="0,20,0,0"
+                SemanticProperties.Hint="Start the login process"
+                Clicked="OnLogginButtonClicked"
+                HorizontalOptions="Center" />
+
+            <Label
+                x:Name="MyConsole"
+                Text="Debugger"
+                Margin="10,0,0,0"/>
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
