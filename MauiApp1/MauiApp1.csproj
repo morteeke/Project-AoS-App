@@ -75,9 +75,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\campaign_background.jpg" />
+	  <None Remove="Resources\Images\CampaignBackground.jpg" />
 	  <None Remove="Resources\Images\dotnet_bot.svg" />
-	  <None Remove="Resources\Images\open_play_background.jpg" />
+	  <None Remove="Resources\Images\OpenPlayBackground.jpg" />
 	  <None Remove="Resources\Images\warhammeraos.jpg" />
 	</ItemGroup>
 

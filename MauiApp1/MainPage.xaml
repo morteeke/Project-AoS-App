@@ -10,13 +10,11 @@
 
             <Image
                 Source="warhammeraos.jpg"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
                 HeightRequest="200"
                 HorizontalOptions="Center" />
 
             <Label
                 Text="AoS app"
-                SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
 
@@ -71,9 +69,6 @@
                 x:Name="MyConsole"
                 Text="Debugger"
                 Margin="10,0,0,0"/>
-
-
-
 
         </VerticalStackLayout>
     </ScrollView>

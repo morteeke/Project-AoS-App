@@ -13,10 +13,11 @@
 
         <Label
             Text="Campaign:"
+            HorizontalOptions="Center"
             Margin="30,0,0,0"/>
         
         <ImageButton 
-            Source="campaign_background.jpg"
+            Source="campaignbackground.jpg"
             HorizontalOptions="Center"
             VerticalOptions="Center"
             HeightRequest="200"
@@ -26,15 +27,18 @@
 
         <Label
             Text="Open Play:"
+            HorizontalOptions="Center"
             Margin="30,0,0,0"/>
         
         <ImageButton 
-            Source="open_play_background.jpg"
+            Source="openplaybackground.jpg"
             HorizontalOptions="Center"
             VerticalOptions="Center"
             HeightRequest="200"
             WidthRequest="300"
             Margin="0,0,0,0"
             Clicked="OnOpenPlayButtonClicked"/>
+
+        
     </VerticalStackLayout>
 </ContentPage>
