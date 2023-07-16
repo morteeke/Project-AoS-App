@@ -8,10 +8,11 @@ namespace MauiApp1;
 public partial class MainPage : ContentPage
 {
 
+    //Everything we need to connect to the database.
 	string server = "sql7.freesqldatabase.com";
-	string database_name = "sql7628906";
-	string db_username = "sql7628906";
-	string db_password = "8vYlewVtKE";
+	string database_name = "sql7633110";
+	string db_username = "sql7633110";
+	string db_password = "MT7D39jLxq";
     string your_port = "3306";
 
 
@@ -20,7 +21,7 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 	}
 
-	private async void OnLogginButtonClicked(object sender, EventArgs e)
+	private async void OnLoginButtonClicked(object sender, EventArgs e)
 	{
         string connectionString = "server="+server+";port="+your_port+";database="+database_name+";uid="+db_username+";password="+db_password+";";
 
@@ -31,21 +32,24 @@ public partial class MainPage : ContentPage
         if (getData != "")
         {
             output = "You logged in as " + getData;
+
+            //open de eerste page na in te loggen.
+            await Navigation.PushModalAsync(new GamemodePage());
         }
         else
         {
             output = "invalid username or password";
         }
-        await DisplayAlert("User", output, "OK");
 
 
         //voor mensen die problemen hebben met zicht. Zo kan de text worden voorgelezen.
         SemanticScreenReader.Announce(CounterBtn.Text);
 
-        //open de eerste page na in te loggen.
-        await Navigation.PushModalAsync(new GamemodePage());
-	}
+        //Show message.
+        await DisplayAlert("User", output, "OK");
+    }
 
+    //We will start an sql query looking for the given username and passsword.
 	private string CheckForUserAccount(string connectionString, string username, string password)
 	{
         string output = "";

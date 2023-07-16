@@ -62,7 +62,7 @@
                 Text="Log in"
                 Margin="0,20,0,0"
                 SemanticProperties.Hint="Start the login process"
-                Clicked="OnLogginButtonClicked"
+                Clicked="OnLoginButtonClicked"
                 HorizontalOptions="Center" />
 
             <Label
