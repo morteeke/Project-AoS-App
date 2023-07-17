@@ -1,3 +1,6 @@
+using Azure;
+using System.Text.Json;
+
 namespace MauiApp1;
 
 public partial class GamemodePage : ContentPage
@@ -12,13 +15,28 @@ public partial class GamemodePage : ContentPage
         return true;
     }
 
-    private void OnCampaignButtonClicked(object sender, EventArgs e)
+    private async void OnCampaignButtonClicked(object sender, EventArgs e)
     {
-        DisplayAlert("debug", "campaign has been clicked", "OK");
+        await DisplayAlert("debug", "campaign has been clicked", "OK");
+
+        string result = await APIHandler.Request();
+
+        // Parse the JSON response
+        JsonDocument jsonDocument = JsonDocument.Parse(result);
+
+        // Access the desired data in the JSON structure
+        JsonElement armiesElement = jsonDocument.RootElement.GetProperty("armies");
+
+        await DisplayAlert("debug", armiesElement[1].ToString(), "OK");
     }
 
     private void OnOpenPlayButtonClicked(object sender, EventArgs e)
     {
         DisplayAlert("debug", "open play has been clicked", "OK");
+    }
+
+    private async void GetData()
+    {
+
     }
 }
