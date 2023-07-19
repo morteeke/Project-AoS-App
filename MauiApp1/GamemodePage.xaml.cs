@@ -1,13 +1,19 @@
 using Azure;
 using System.Text.Json;
+using System.Runtime.Caching;
 
 namespace MauiApp1;
+
+
+// 19/07/2023: Tryed to cache the data fetched from api. Does not seem to work, might try with a txt file.
 
 public partial class GamemodePage : ContentPage
 {
 	public GamemodePage()
 	{
 		InitializeComponent();
+
+        //OnLoad();
 	}
 
     protected override bool OnBackButtonPressed()
@@ -15,9 +21,23 @@ public partial class GamemodePage : ContentPage
         return true;
     }
 
-    private async void OnCampaignButtonClicked(object sender, EventArgs e)
+    private void OnCampaignButtonClicked(object sender, EventArgs e)
     {
-        await DisplayAlert("debug", "campaign has been clicked", "OK");
+
+        OnLoad();
+    }
+
+    private async void OnOpenPlayButtonClicked(object sender, EventArgs e)
+    {
+        await DisplayAlert("debug", "open play has been clicked", "OK");
+
+        FileOperations fileOperations = new FileOperations();
+        var result = await fileOperations.ReadFile();
+        await DisplayAlert("debug", result.ToString(), "OK");
+    }
+
+    private async Task<JsonElement> GetData()
+    {
 
         string result = await APIHandler.Request();
 
@@ -25,18 +45,40 @@ public partial class GamemodePage : ContentPage
         JsonDocument jsonDocument = JsonDocument.Parse(result);
 
         // Access the desired data in the JSON structure
-        JsonElement armiesElement = jsonDocument.RootElement.GetProperty("armies");
+        JsonElement rootElement = jsonDocument.RootElement;
 
-        await DisplayAlert("debug", armiesElement[1].ToString(), "OK");
+        return rootElement;
     }
-
-    private void OnOpenPlayButtonClicked(object sender, EventArgs e)
+    private async void OnLoad()
     {
-        DisplayAlert("debug", "open play has been clicked", "OK");
-    }
+        string cacheKey = "my_api_data";
+        ObjectCache cache = MemoryCache.Default;
 
-    private async void GetData()
-    {
+        var cachedData = cache[cacheKey] as string;
 
+        string output = "1";
+
+        //If there is no data in the cache.
+        if (cachedData == null)
+        {
+            //Fetch from api
+
+            output = "0";
+
+            var apiData = await GetData();
+
+            var countJsonElement = apiData.GetProperty("count");
+            var dataJsonElement = apiData.GetProperty("data");
+
+            await DisplayAlert("debug", "blablabla= " + countJsonElement, "OK");
+            await DisplayAlert("Debug", "Data: " + dataJsonElement[0].GetProperty("army"), "OK");
+
+            var cachePolicy = new CacheItemPolicy { AbsoluteExpiration = DateTimeOffset.Now.AddHours(1) };
+            cache.Add(cacheKey, apiData, cachePolicy);
+
+            cachedData = apiData.ToString();
+        }
+
+        await DisplayAlert("debug", output + cachedData, "OK");
     }
 }

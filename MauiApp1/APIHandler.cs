@@ -17,11 +17,10 @@ namespace MauiApp1
 
             using(HttpClient client = new HttpClient())
             {
-                string apiUrl = "https://aos-api.com/armies/sylvanth";
+                string apiUrl = "https://aos-api.com/armies";
 
                 try
                 {
-                    Debugger.Log(0, null, "HALLO");
 
                     HttpResponseMessage response = await client.GetAsync(apiUrl);
 
