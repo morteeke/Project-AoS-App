@@ -91,7 +91,7 @@
 
 	<ItemGroup>
 	  <MauiAsset Update="Resources\Raw\cache.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 	  </MauiAsset>
 	</ItemGroup>
 

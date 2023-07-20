@@ -53,6 +53,8 @@ public partial class MainPage : ContentPage
 	private string CheckForUserAccount(string connectionString, string username, string password)
 	{
         string output = "";
+
+        //For debugging purpose.
         MyConsole.Text = "Make Connection... (" + connectionString + ")";
 
         MySqlConnection connection = new MySqlConnection(connectionString);

@@ -9,7 +9,9 @@ namespace MauiApp1;
 
 public partial class GamemodePage : ContentPage
 {
-	public GamemodePage()
+
+
+    public GamemodePage()
 	{
 		InitializeComponent();
 
@@ -31,8 +33,7 @@ public partial class GamemodePage : ContentPage
     {
         await DisplayAlert("debug", "open play has been clicked", "OK");
 
-        FileOperations fileOperations = new FileOperations();
-        var result = await fileOperations.ReadFile();
+        var result = await FileOperations.ReadFile();
         await DisplayAlert("debug", result.ToString(), "OK");
     }
 
@@ -77,6 +78,8 @@ public partial class GamemodePage : ContentPage
             cache.Add(cacheKey, apiData, cachePolicy);
 
             cachedData = apiData.ToString();
+
+            FileOperations.WriteFile(cachedData);
         }
 
         await DisplayAlert("debug", output + cachedData, "OK");

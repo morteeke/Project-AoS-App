@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.Identity.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace MauiApp1
 {
-    public class FileOperations
+    public static class FileOperations
     {
-        public async Task<string> ReadFile()
+        public static async Task<string> ReadFile()
         {
 
             string line;
@@ -26,6 +27,28 @@ namespace MauiApp1
             }
 
             return output;
+        }
+
+        public static async void WriteFile(string data)
+        {
+            string fileName = "cache.txt";
+
+            //string mainDir = FileSystem.Current.AppDataDirectory;
+            //string filePath = System.IO.Path.Combine(mainDir, fileName);
+
+            //using FileStream fileStream = System.IO.File.OpenWrite(filePath);
+            //using StreamWriter streamWriter = new StreamWriter(fileStream);
+
+            using Stream fileStream = await FileSystem.Current.OpenAppPackageFileAsync(fileName);
+            using StreamWriter writer = new StreamWriter(fileStream);
+
+            await writer.WriteAsync(data);
+
+
+            //using FileStream fileStream = new FileStream(fileName, FileMode.OpenOrCreate);
+            //using StreamWriter writer = new StreamWriter(fileStream);
+
+            //writer.Write(data);
         }
     }
 }

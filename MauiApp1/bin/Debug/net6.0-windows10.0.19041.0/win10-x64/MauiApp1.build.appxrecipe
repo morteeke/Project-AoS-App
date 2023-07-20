@@ -35,9 +35,6 @@
       <PackagePath>MauiApp1.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\Resources\Raw\cache.txt">
-      <PackagePath>cache.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\Resources\Raw\cache.txt">
       <PackagePath>Resources\Raw\cache.txt</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
@@ -1764,6 +1761,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\Resources\Raw\cache.txt">
+      <PackagePath>cache.txt</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
