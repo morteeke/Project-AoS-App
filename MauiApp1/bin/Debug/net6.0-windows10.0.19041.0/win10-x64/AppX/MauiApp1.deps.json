@@ -14,6 +14,7 @@
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
           "Microsoft.Maui.Dependencies": "6.0.553",
           "Microsoft.Maui.Extensions": "6.0.553",
+          "MonkeyCache.FileStore": "2.0.1",
           "MySql.Data": "8.0.33",
           "System.Runtime.Caching": "7.0.0",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "6.0.20",
@@ -1613,6 +1614,25 @@
           }
         }
       },
+      "MonkeyCache/2.0.1": {
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "dependencies": {
           "Google.Protobuf": "3.21.9",
@@ -2221,6 +2241,20 @@
       "sha512": "sha512-gGeFfN1AQiIo6DaPe4KkOvlx/EDjwq/Lc+Q3EzX+U4x/hsiZkls/XqFpNTjELyYgsxl8g0SiPzguJ7A1dlhC6Q==",
       "path": "microsoft.windowsappsdk/1.1.5",
       "hashPath": "microsoft.windowsappsdk.1.1.5.nupkg.sha512"
+    },
+    "MonkeyCache/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zy7FpOzM7f6TOq/1I84IbxomdTEyWGBL0zB5VxjpQCuwa8w8PilXTekQz83fn9tVo7Xh5WduW7fx8R5zys0i9Q==",
+      "path": "monkeycache/2.0.1",
+      "hashPath": "monkeycache.2.0.1.nupkg.sha512"
+    },
+    "MonkeyCache.FileStore/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ENyYEpdTqV+oauww9xNsz8oCyltfWHkLNkhTANp3w9+fZVeDoFAdu1rRCMP0S67p+OthxkyE5O0MfqdVFPItYg==",
+      "path": "monkeycache.filestore/2.0.1",
+      "hashPath": "monkeycache.filestore.2.0.1.nupkg.sha512"
     },
     "MySql.Data/8.0.33": {
       "type": "package",

@@ -1,6 +1,6 @@
 using Azure;
+using MonkeyCache.FileStore;
 using System.Text.Json;
-using System.Runtime.Caching;
 
 namespace MauiApp1;
 
@@ -26,17 +26,17 @@ public partial class GamemodePage : ContentPage
     private void OnCampaignButtonClicked(object sender, EventArgs e)
     {
 
-        OnLoad();
+        LoadData();
     }
 
     private async void OnOpenPlayButtonClicked(object sender, EventArgs e)
     {
         await DisplayAlert("debug", "open play has been clicked", "OK");
 
-        var result = await FileOperations.ReadFile();
-        await DisplayAlert("debug", result.ToString(), "OK");
+        Barrel.Current.EmptyAll();
     }
 
+    //This method gets all the data from the REST api.
     private async Task<JsonElement> GetData()
     {
 
@@ -50,38 +50,45 @@ public partial class GamemodePage : ContentPage
 
         return rootElement;
     }
-    private async void OnLoad()
+
+    
+    //This method loads the data from the cache and checks if there is a cache.
+    private async void LoadData()
     {
+        //This has to be declared to use the caching. (so it doesn't conflict)
+        Barrel.ApplicationId = "unique_app_id";
+
+
         string cacheKey = "my_api_data";
-        ObjectCache cache = MemoryCache.Default;
 
-        var cachedData = cache[cacheKey] as string;
+        //Here we delete the contents of all expired caches.
+        Barrel.Current.EmptyExpired();
 
-        string output = "1";
+        //We get the data that has already been cached.
+        string cachedData = Barrel.Current.Get<string>(cacheKey);
 
-        //If there is no data in the cache.
-        if (cachedData == null)
+        //We check if the cache is empty or not. Do some stuff wheter it is empty or not.
+        if(string.IsNullOrEmpty(cachedData))
         {
-            //Fetch from api
-
-            output = "0";
-
             var apiData = await GetData();
 
-            var countJsonElement = apiData.GetProperty("count");
-            var dataJsonElement = apiData.GetProperty("data");
+            //Let's get the data from the api and save it to the cache.
+            CacheData(cacheKey, apiData);
 
-            await DisplayAlert("debug", "blablabla= " + countJsonElement, "OK");
-            await DisplayAlert("Debug", "Data: " + dataJsonElement[0].GetProperty("army"), "OK");
+            await DisplayAlert("debug", "New cache = " + apiData, "OK");
+        }
+        else
+        {
+            await DisplayAlert("debug", "Existing cache = "+cachedData, "OK");
 
-            var cachePolicy = new CacheItemPolicy { AbsoluteExpiration = DateTimeOffset.Now.AddHours(1) };
-            cache.Add(cacheKey, apiData, cachePolicy);
-
-            cachedData = apiData.ToString();
-
-            FileOperations.WriteFile(cachedData);
         }
 
-        await DisplayAlert("debug", output + cachedData, "OK");
+
+    }
+
+    //Here we put all the api data inside of the cache.
+    private void CacheData(string cacheKey, JsonElement apiData)
+    {
+        Barrel.Current.Add(cacheKey, apiData, expireIn:TimeSpan.FromSeconds(5));
     }
 }

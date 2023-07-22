@@ -34,9 +34,6 @@
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp1.dll">
       <PackagePath>MauiApp1.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\Resources\Raw\cache.txt">
-      <PackagePath>Resources\Raw\cache.txt</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp1.exe</PackagePath>
     </AppxPackagedFile>
@@ -1684,6 +1681,12 @@
     <AppxPackagedFile Include="C:\Users\Maarten\.nuget\packages\microsoft.windowsappsdk\1.1.5\lib\net5.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maarten\.nuget\packages\monkeycache\2.0.1\lib\net6.0-windows10.0.19041\MonkeyCache.dll">
+      <PackagePath>MonkeyCache.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maarten\.nuget\packages\monkeycache.filestore\2.0.1\lib\net6.0\MonkeyCache.FileStore.dll">
+      <PackagePath>MonkeyCache.FileStore.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\.nuget\packages\mysql.data\8.0.33\lib\net6.0\MySql.Data.dll">
       <PackagePath>MySql.Data.dll</PackagePath>
     </AppxPackagedFile>
@@ -1761,9 +1764,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\Resources\Raw\cache.txt">
-      <PackagePath>cache.txt</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>

@@ -30,33 +30,29 @@
     <AppXManifest Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-07-20T14:35:56.853</Modified>
+      <Modified>2023-07-22T16:24:40.912</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-07-20T14:35:56.223</Modified>
+      <Modified>2023-07-22T16:24:40.303</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp1.runtimeconfig.json">
       <PackagePath>MauiApp1.runtimeconfig.json</PackagePath>
-      <Modified>2023-07-19T15:22:58.118</Modified>
+      <Modified>2023-07-22T16:07:49.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp1.dll">
       <PackagePath>MauiApp1.dll</PackagePath>
-      <Modified>2023-07-20T14:35:55.122</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\Resources\Raw\cache.txt">
-      <PackagePath>Resources\Raw\cache.txt</PackagePath>
-      <Modified>2023-07-19T18:56:04.075</Modified>
+      <Modified>2023-07-22T16:24:39.634</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp1.exe</PackagePath>
-      <Modified>2023-07-20T14:35:55.129</Modified>
+      <Modified>2023-07-22T16:24:39.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp1.deps.json">
       <PackagePath>MauiApp1.deps.json</PackagePath>
-      <Modified>2023-07-20T14:35:56.174</Modified>
+      <Modified>2023-07-22T16:14:45.387</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.20\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -2246,6 +2242,14 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-09-07T21:54:34.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maarten\.nuget\packages\monkeycache\2.0.1\lib\net6.0-windows10.0.19041\MonkeyCache.dll">
+      <PackagePath>MonkeyCache.dll</PackagePath>
+      <Modified>2023-01-13T22:52:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maarten\.nuget\packages\monkeycache.filestore\2.0.1\lib\net6.0\MonkeyCache.FileStore.dll">
+      <PackagePath>MonkeyCache.FileStore.dll</PackagePath>
+      <Modified>2023-01-13T22:53:10.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\.nuget\packages\mysql.data\8.0.33\lib\net6.0\MySql.Data.dll">
       <PackagePath>MySql.Data.dll</PackagePath>
       <Modified>2023-04-13T00:31:20.000</Modified>
@@ -2349,10 +2353,6 @@
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2023-06-26T14:22:18.692</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\Resources\Raw\cache.txt">
-      <PackagePath>cache.txt</PackagePath>
-      <Modified>2023-07-19T18:56:04.075</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>

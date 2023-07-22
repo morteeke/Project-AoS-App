@@ -39,7 +39,9 @@ namespace MauiApp1
             //using FileStream fileStream = System.IO.File.OpenWrite(filePath);
             //using StreamWriter streamWriter = new StreamWriter(fileStream);
 
-            using Stream fileStream = await FileSystem.Current.OpenAppPackageFileAsync(fileName);
+            string targetFile = System.IO.Path.Combine(FileSystem.Current.AppDataDirectory, fileName);
+
+            using FileStream fileStream = System.IO.File.OpenWrite(targetFile);
             using StreamWriter writer = new StreamWriter(fileStream);
 
             await writer.WriteAsync(data);

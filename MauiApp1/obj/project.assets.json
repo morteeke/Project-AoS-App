@@ -667,6 +667,35 @@
           }
         }
       },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "type": "package",
         "dependencies": {
@@ -3480,6 +3509,35 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "type": "package",
         "dependencies": {
@@ -6207,6 +6265,35 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MySql.Data/8.0.33": {
@@ -8938,6 +9025,35 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "type": "package",
         "dependencies": {
@@ -11665,6 +11781,35 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MySql.Data/8.0.33": {
@@ -14396,6 +14541,35 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "type": "package",
         "dependencies": {
@@ -17123,6 +17297,35 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MySql.Data/8.0.33": {
@@ -19855,6 +20058,35 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MySql.Data/8.0.33": {
@@ -22626,6 +22858,38 @@
           }
         }
       },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "type": "package",
         "dependencies": {
@@ -23931,6 +24195,38 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MySql.Data/8.0.33": {
@@ -25311,6 +25607,38 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "type": "package",
         "dependencies": {
@@ -26687,6 +27015,38 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MySql.Data/8.0.33": {
@@ -28067,6 +28427,38 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "type": "package",
         "dependencies": {
@@ -29445,6 +29837,38 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "type": "package",
         "dependencies": {
@@ -30821,6 +31245,38 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MySql.Data/8.0.33": {
@@ -32202,6 +32658,38 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MySql.Data/8.0.33": {
@@ -33602,6 +34090,38 @@
           }
         }
       },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "type": "package",
         "dependencies": {
@@ -34776,6 +35296,38 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MySql.Data/8.0.33": {
@@ -35979,6 +36531,38 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "type": "package",
         "dependencies": {
@@ -37178,6 +37762,38 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MySql.Data/8.0.33": {
@@ -38381,6 +38997,38 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "type": "package",
         "dependencies": {
@@ -39582,6 +40230,38 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "type": "package",
         "dependencies": {
@@ -40781,6 +41461,38 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MySql.Data/8.0.33": {
@@ -41985,6 +42697,38 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MySql.Data/8.0.33": {
@@ -43393,6 +44137,35 @@
           }
         }
       },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "type": "package",
         "dependencies": {
@@ -44697,6 +45470,35 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MySql.Data/8.0.33": {
@@ -46030,6 +46832,35 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "type": "package",
         "dependencies": {
@@ -47359,6 +48190,35 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MySql.Data/8.0.33": {
@@ -48692,6 +49552,35 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "type": "package",
         "dependencies": {
@@ -50023,6 +50912,35 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MySql.Data/8.0.33": {
         "type": "package",
         "dependencies": {
@@ -51352,6 +52270,35 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MySql.Data/8.0.33": {
@@ -52695,6 +53642,35 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MonkeyCache/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/MonkeyCache.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonkeyCache.FileStore/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MonkeyCache": "2.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonkeyCache.FileStore.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MySql.Data/8.0.33": {
@@ -55170,6 +56146,46 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "MonkeyCache/2.0.1": {
+      "sha512": "Zy7FpOzM7f6TOq/1I84IbxomdTEyWGBL0zB5VxjpQCuwa8w8PilXTekQz83fn9tVo7Xh5WduW7fx8R5zys0i9Q==",
+      "type": "package",
+      "path": "monkeycache/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0-android31.0/MonkeyCache.dll",
+        "lib/net6.0-android31.0/MonkeyCache.pdb",
+        "lib/net6.0-android31.0/MonkeyCache.xml",
+        "lib/net6.0-ios16.1/MonkeyCache.dll",
+        "lib/net6.0-ios16.1/MonkeyCache.pdb",
+        "lib/net6.0-ios16.1/MonkeyCache.xml",
+        "lib/net6.0-maccatalyst16.1/MonkeyCache.dll",
+        "lib/net6.0-maccatalyst16.1/MonkeyCache.pdb",
+        "lib/net6.0-maccatalyst16.1/MonkeyCache.xml",
+        "lib/net6.0-windows10.0.19041/MonkeyCache.dll",
+        "lib/net6.0-windows10.0.19041/MonkeyCache.pdb",
+        "lib/net6.0-windows10.0.19041/MonkeyCache.xml",
+        "lib/net6.0/MonkeyCache.dll",
+        "lib/net6.0/MonkeyCache.pdb",
+        "lib/net6.0/MonkeyCache.xml",
+        "monkeycache.2.0.1.nupkg.sha512",
+        "monkeycache.nuspec"
+      ]
+    },
+    "MonkeyCache.FileStore/2.0.1": {
+      "sha512": "ENyYEpdTqV+oauww9xNsz8oCyltfWHkLNkhTANp3w9+fZVeDoFAdu1rRCMP0S67p+OthxkyE5O0MfqdVFPItYg==",
+      "type": "package",
+      "path": "monkeycache.filestore/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/MonkeyCache.FileStore.dll",
+        "lib/net6.0/MonkeyCache.FileStore.pdb",
+        "lib/net6.0/MonkeyCache.FileStore.xml",
+        "monkeycache.filestore.2.0.1.nupkg.sha512",
+        "monkeycache.filestore.nuspec"
       ]
     },
     "MySql.Data/8.0.33": {
@@ -59134,6 +60150,7 @@
       "Microsoft.Extensions.Configuration.Json >= 7.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.553",
       "Microsoft.Maui.Extensions >= 6.0.553",
+      "MonkeyCache.FileStore >= 2.0.1",
       "MySql.Data >= 8.0.33",
       "System.Runtime.Caching >= 7.0.0"
     ],
@@ -59143,6 +60160,7 @@
       "Microsoft.Extensions.Configuration.Json >= 7.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.553",
       "Microsoft.Maui.Extensions >= 6.0.553",
+      "MonkeyCache.FileStore >= 2.0.1",
       "MySql.Data >= 8.0.33",
       "System.Runtime.Caching >= 7.0.0",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
@@ -59153,6 +60171,7 @@
       "Microsoft.Extensions.Configuration.Json >= 7.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.553",
       "Microsoft.Maui.Extensions >= 6.0.553",
+      "MonkeyCache.FileStore >= 2.0.1",
       "MySql.Data >= 8.0.33",
       "System.Runtime.Caching >= 7.0.0",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
@@ -59163,6 +60182,7 @@
       "Microsoft.Extensions.Configuration.Json >= 7.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.553",
       "Microsoft.Maui.Extensions >= 6.0.553",
+      "MonkeyCache.FileStore >= 2.0.1",
       "MySql.Data >= 8.0.33",
       "System.Runtime.Caching >= 7.0.0"
     ]
@@ -59249,6 +60269,10 @@
             "target": "Package",
             "version": "[6.0.553, )",
             "autoReferenced": true
+          },
+          "MonkeyCache.FileStore": {
+            "target": "Package",
+            "version": "[2.0.1, )"
           },
           "MySql.Data": {
             "target": "Package",
@@ -59372,6 +60396,10 @@
             "version": "[6.0.553, )",
             "autoReferenced": true
           },
+          "MonkeyCache.FileStore": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          },
           "MySql.Data": {
             "target": "Package",
             "version": "[8.0.33, )"
@@ -59474,6 +60502,10 @@
             "target": "Package",
             "version": "[6.0.553, )",
             "autoReferenced": true
+          },
+          "MonkeyCache.FileStore": {
+            "target": "Package",
+            "version": "[2.0.1, )"
           },
           "MySql.Data": {
             "target": "Package",
@@ -59578,6 +60610,10 @@
             "target": "Package",
             "version": "[6.0.553, )",
             "autoReferenced": true
+          },
+          "MonkeyCache.FileStore": {
+            "target": "Package",
+            "version": "[2.0.1, )"
           },
           "MySql.Data": {
             "target": "Package",
