@@ -42,6 +42,8 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Graphics.dll",
 		"Microsoft.SqlServer.Server.dll",
 		"Microsoft.Win32.SystemEvents.dll",
+		"MonkeyCache.dll",
+		"MonkeyCache.FileStore.dll",
 		"MySql.Data.dll",
 		"BouncyCastle.Crypto.dll",
 		"System.Configuration.ConfigurationManager.dll",

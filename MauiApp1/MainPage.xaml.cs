@@ -21,32 +21,32 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 	}
 
-	private async void OnLoginButtonClicked(object sender, EventArgs e)
+	private void OnLoginButtonClicked(object sender, EventArgs e)
 	{
+        
+
         string connectionString = "server="+server+";port="+your_port+";database="+database_name+";uid="+db_username+";password="+db_password+";";
 
         string getData = CheckForUserAccount(connectionString, UsernameField.Text, PasswordField.Text);
         MyConsole.Text = getData;
 
-        string output;
         if (getData != "")
         {
-            output = "You logged in as " + getData;
 
-            //open de eerste page na in te loggen.
-            await Navigation.PushModalAsync(new GamemodePage());
+            //open de eerste page met AppShell class.
+            //App.Current.MainPage = new AppShell();
+
         }
         else
         {
-            output = "invalid username or password";
+            string output = "invalid username or password";
+            DisplayAlert("User", output, "OK");
         }
 
+        App.Current.MainPage = new AppShell();
 
         //voor mensen die problemen hebben met zicht. Zo kan de text worden voorgelezen.
-        SemanticScreenReader.Announce(CounterBtn.Text);
-
-        //Show message.
-        await DisplayAlert("User", output, "OK");
+        SemanticScreenReader.Announce(LoginBtn.Text);
     }
 
     //We will start an sql query looking for the given username and passsword.
@@ -65,7 +65,7 @@ public partial class MainPage : ContentPage
             // Connection established successfully, perform database operations here
             MyConsole.Text += "\n\nConnection established";
 
-            // Example: execute a query
+            //Execute a query
             string query = "SELECT username FROM User WHERE username = '"+ username + "' and password = '"+password+"'";
 
             MyConsole.Text += "\n\nStart a query...";

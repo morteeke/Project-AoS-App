@@ -4,11 +4,42 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MauiApp1"
-    Shell.FlyoutBehavior="Disabled">
+    Shell.FlyoutBehavior="Flyout"
+    Shell.FlyoutWidth="175"
+    Shell.TabBarBackgroundColor="LightSlateGrey"
+    Shell.BackgroundColor="LightSlateGrey"
+    FlyoutBackgroundColor="CornflowerBlue">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    
+
+    <TabBar>
+        <Tab Title="Profile">
+            <ShellContent Icon="DashboardTabIcon.png"
+                          ContentTemplate="{DataTemplate local:ProfilePage}"/>
+        </Tab>
+        <Tab Title="Gamemode">
+            <ShellContent Icon="SecondTabIcon.png"
+                          ContentTemplate="{DataTemplate local:GamemodePage}"/>
+        </Tab>
+    </TabBar>
+
+    <FlyoutItem Title="Settings"
+                Icon="cat.png">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate local:ProfilePage}" />
+        </Tab>
+    </FlyoutItem>
+    
+    <FlyoutItem Title="About"
+                Icon="dog.png">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate local:ProfilePage}" />
+        </Tab>
+    </FlyoutItem>
+
+    <ShellContent Title="Log out"
+                  ContentTemplate="{DataTemplate local:MainPage}"
+                  x:Name="LogOutButton"
+                  />
 
 </Shell>

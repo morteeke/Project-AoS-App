@@ -10,7 +10,7 @@ namespace MauiApp1
 {
     public static class DataHandler
     {
-        public static async Task<string> Load()
+        public static async Task<string> LoadCache()
         {
             //This has to be declared to use the caching. (so it doesn't conflict)
             Barrel.ApplicationId = "unique_app_id";

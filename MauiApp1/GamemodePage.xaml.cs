@@ -14,8 +14,6 @@ public partial class GamemodePage : ContentPage
     public GamemodePage()
 	{
 		InitializeComponent();
-
-        OnLoad();
 	}
 
     protected override bool OnBackButtonPressed()
@@ -37,7 +35,12 @@ public partial class GamemodePage : ContentPage
 
     private async void OnLoad()
     {
-        data = await DataHandler.Load();
+        data = await DataHandler.LoadCache();
         await DisplayAlert("debug", data, "OK");
+    }
+
+    private void ContentPage_Loaded(object sender, EventArgs e)
+    {
+        OnLoad();
     }
 }
