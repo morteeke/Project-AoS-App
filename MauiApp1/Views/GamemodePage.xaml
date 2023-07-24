@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    
+
+<ContentPage Loaded="ContentPage_Loaded"    
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.GamemodePage"    
+             Title="Gamemode">
+    <VerticalStackLayout>
+        <Label 
+            Text="Choose your gamemode!"
+            FontSize="26"
+            Margin="0,20,0,40"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"/>
+
+        <Label
+            Text="Campaign:"
+            HorizontalOptions="Center"
+            Margin="30,0,0,0"/>
+        
+        <ImageButton 
+            Source="campaignbackground.jpg"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            HeightRequest="200"
+            WidthRequest="300"
+            Margin="0,10,0,20"
+            Clicked="OnCampaignButtonClicked"/>
+
+        <Label
+            Text="Open Play:"
+            HorizontalOptions="Center"
+            Margin="30,0,0,0"/>
+        
+        <ImageButton 
+            Source="openplaybackground.jpg"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            HeightRequest="200"
+            WidthRequest="300"
+            Margin="0,0,0,0"
+            Clicked="OnOpenPlayButtonClicked"/>
+
+        
+    </VerticalStackLayout>
+</ContentPage>

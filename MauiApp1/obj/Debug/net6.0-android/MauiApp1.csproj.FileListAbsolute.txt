@@ -2998,13 +2998,6 @@ C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\lp\149\jl\files.cache
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\lp\151\jl\files.cache
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\lp\157\jl\files.cache
-C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\assets\mscorlib.dll
-C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
-C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Data.dll
-C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\assets\System.dll
-C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
-C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
-C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Xml.dll
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\typemaps.arm64-v8a.s
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\environment.arm64-v8a.s
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\compressed_assemblies.arm64-v8a.s
@@ -3012,3 +3005,10 @@ C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\environment.arm64-v8a.o
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\compressed_assemblies.arm64-v8a.o
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
+C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\assets\mscorlib.dll
+C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
+C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Data.dll
+C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\assets\System.dll
+C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
+C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
+C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Xml.dll

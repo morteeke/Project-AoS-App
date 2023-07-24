@@ -10,13 +10,20 @@ namespace MauiApp1
 {
     public static class DataHandler
     {
+        static string cacheKey = "my_api_data";
+
+        public static JsonElement LoadArmy(string name)
+        {
+            var cachedData = Barrel.Current.Get<JsonElement>(cacheKey);
+
+            return cachedData;
+        }
+
         public static async Task<string> LoadCache()
         {
             //This has to be declared to use the caching. (so it doesn't conflict)
             Barrel.ApplicationId = "unique_app_id";
 
-
-            string cacheKey = "my_api_data";
 
             //Here we delete the contents of all expired caches.
             Barrel.Current.EmptyExpired();

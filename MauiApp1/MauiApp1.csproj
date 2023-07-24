@@ -56,17 +56,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <AndroidResource Remove="NewFolder\**" />
 	  <AndroidResource Remove="ViewModel\**" />
-	  <Compile Remove="NewFolder\**" />
 	  <Compile Remove="ViewModel\**" />
-	  <EmbeddedResource Remove="NewFolder\**" />
 	  <EmbeddedResource Remove="ViewModel\**" />
-	  <MauiCss Remove="NewFolder\**" />
 	  <MauiCss Remove="ViewModel\**" />
-	  <MauiXaml Remove="NewFolder\**" />
 	  <MauiXaml Remove="ViewModel\**" />
-	  <None Remove="NewFolder\**" />
 	  <None Remove="ViewModel\**" />
 	</ItemGroup>
 
@@ -91,16 +85,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="ProfilePage.xaml.cs">
+	  <Compile Update="Views\ProfilePage.xaml.cs">
 	    <DependentUpon>ProfilePage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="GamemodePage.xaml">
+	  <MauiXaml Update="Views\GamemodePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ProfilePage.xaml">
+	  <MauiXaml Update="Views\OpenPlayPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\ProfilePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="TodayPage.xaml">
