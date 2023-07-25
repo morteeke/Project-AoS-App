@@ -40,7 +40,7 @@ public partial class MainPage : ContentPage
         else
         {
             string output = "invalid username or password";
-            DisplayAlert("User", output, "OK");
+            //DisplayAlert("User", output, "OK");
         }
 
         App.Current.MainPage = new AppShell();

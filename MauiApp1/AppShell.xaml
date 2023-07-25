@@ -16,14 +16,15 @@
 
     <FlyoutItem Title="Game"
                 Icon="cat.png">
-        <Tab Title="Profile">
-            <ShellContent ContentTemplate="{DataTemplate local:ProfilePage}" />
-        </Tab>
+
         <Tab Title="Gamemode">
             <ShellContent Icon="SecondTabIcon.png"
                           ContentTemplate="{DataTemplate local:GamemodePage}"/>
         </Tab>
-        
+        <Tab Title="Profile">
+            <ShellContent ContentTemplate="{DataTemplate local:ProfilePage}" />
+        </Tab>
+
     </FlyoutItem>
 
     <FlyoutItem Title="Settings"

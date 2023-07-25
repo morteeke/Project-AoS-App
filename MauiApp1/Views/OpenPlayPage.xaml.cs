@@ -25,9 +25,12 @@ public partial class OpenPlayPage : ContentPage
 			armies.Add(army);
 		}
 
+		string output = "";
+		foreach(Army arm in armies)
+		{
+			output += arm.Name + "\n";
+		}
 
-		
-
-		DisplayAlert("Debug", armies[5].Name, "OK");
+		DisplayAlert("Debug", output, "OK");
     }
 }

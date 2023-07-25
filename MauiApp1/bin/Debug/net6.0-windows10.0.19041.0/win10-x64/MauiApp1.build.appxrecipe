@@ -1765,20 +1765,20 @@
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
-      <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenSplashScreen.scale-100.png">
+      <PackagePath>splashscreenSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
-      <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenSplashScreen.scale-125.png">
+      <PackagePath>splashscreenSplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
-      <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenSplashScreen.scale-150.png">
+      <PackagePath>splashscreenSplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
-      <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenSplashScreen.scale-200.png">
+      <PackagePath>splashscreenSplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
-      <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenSplashScreen.scale-400.png">
+      <PackagePath>splashscreenSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -1927,26 +1927,8 @@
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\campaignbackground.scale-100.jpg">
       <PackagePath>campaignbackground.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\openplaybackground.scale-100.jpg">
       <PackagePath>openplaybackground.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\open_play_background.scale-100.jpg">
-      <PackagePath>open_play_background.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\warhammeraos.scale-100.jpg">
       <PackagePath>warhammeraos.scale-100.jpg</PackagePath>
