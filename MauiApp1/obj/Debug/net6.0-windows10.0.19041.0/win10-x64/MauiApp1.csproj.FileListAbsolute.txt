@@ -1698,7 +1698,6 @@ C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\bin\Debug\net
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.2023.32017.dll
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\msquic.dll
@@ -2030,3 +2029,4 @@ C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenSplashScreen.scale-150.png
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenSplashScreen.scale-200.png
 C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenSplashScreen.scale-400.png
+C:\Users\Maarten\Documents\Mijn Bestanden\Project AoS App\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.2223.42425.dll

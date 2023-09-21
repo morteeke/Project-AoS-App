@@ -6,20 +6,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp1.GamemodePage"    
              Title="Gamemode">
-    <VerticalStackLayout>
-        <Label 
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
             Text="Choose your gamemode!"
             FontSize="26"
             Margin="0,20,0,40"
             VerticalOptions="Center" 
             HorizontalOptions="Center"/>
 
-        <Label
+            <Label
             Text="Campaign:"
             HorizontalOptions="Center"
             Margin="30,0,0,0"/>
-        
-        <ImageButton 
+
+            <ImageButton 
             Source="campaignbackground.jpg"
             HorizontalOptions="Center"
             VerticalOptions="Center"
@@ -28,12 +30,12 @@
             Margin="0,10,0,20"
             Clicked="OnCampaignButtonClicked"/>
 
-        <Label
+            <Label
             Text="Open Play:"
             HorizontalOptions="Center"
             Margin="30,0,0,0"/>
-        
-        <ImageButton 
+
+            <ImageButton 
             Source="openplaybackground.jpg"
             HorizontalOptions="Center"
             VerticalOptions="Center"
@@ -42,6 +44,7 @@
             Margin="0,0,0,0"
             Clicked="OnOpenPlayButtonClicked"/>
 
-        
-    </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

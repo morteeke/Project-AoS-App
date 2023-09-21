@@ -17,7 +17,8 @@ namespace MauiApp1
 
             using(HttpClient client = new HttpClient())
             {
-                string apiUrl = "https://aos-api.com/armies";
+                //!!! cities works but armies does NOT. !!!
+                string apiUrl = "https://aos-api.com/units";
 
                 try
                 {

@@ -45,7 +45,6 @@ public partial class MainPage : ContentPage
 
         App.Current.MainPage = new AppShell();
 
-        //voor mensen die problemen hebben met zicht. Zo kan de text worden voorgelezen.
         SemanticScreenReader.Announce(LoginBtn.Text);
     }
 

@@ -37,7 +37,7 @@ public partial class GamemodePage : ContentPage
     private async void OnLoad()
     {
         data = await DataHandler.LoadCache();
-        await DisplayAlert("debug", data, "OK");
+        await DisplayAlert("API call", data, "OK");
     }
 
     private void ContentPage_Loaded(object sender, EventArgs e)

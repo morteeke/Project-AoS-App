@@ -1,6 +1,7 @@
 ﻿using MonkeyCache.FileStore;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
@@ -24,6 +25,7 @@ namespace MauiApp1
             //This has to be declared to use the caching. (so it doesn't conflict)
             Barrel.ApplicationId = "unique_app_id";
 
+            Barrel.Current.EmptyAll();
 
             //Here we delete the contents of all expired caches.
             Barrel.Current.EmptyExpired();
@@ -51,6 +53,8 @@ namespace MauiApp1
         {
 
             string result = await APIHandler.Request();
+
+            Debug.WriteLine("DEBUGGERRRRR:   "+ result.ToString());
 
             // Parse the JSON response
             JsonDocument jsonDocument = JsonDocument.Parse(result);
