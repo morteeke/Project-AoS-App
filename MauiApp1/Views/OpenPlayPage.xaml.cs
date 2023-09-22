@@ -1,3 +1,4 @@
+using MauiApp1.Views;
 using System.Text.Json;
 
 namespace MauiApp1;
@@ -32,5 +33,11 @@ public partial class OpenPlayPage : ContentPage
 		}
 
 		DisplayAlert("Debug", output, "OK");
+    }
+
+    private async void NewArmyButton_Clicked(object sender, EventArgs e)
+    {
+		//Make a popup.
+		await DisplayAlert("Army Creation", "This has to become a popup where you can create your army.", "OK");
     }
 }

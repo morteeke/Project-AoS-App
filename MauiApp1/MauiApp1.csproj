@@ -71,6 +71,7 @@
 	  <None Remove="Resources\Images\CampaignBackground.jpg" />
 	  <None Remove="Resources\Images\dotnet_bot.svg" />
 	  <None Remove="Resources\Images\OpenPlayBackground.jpg" />
+	  <None Remove="Resources\Images\plussign.png" />
 	  <None Remove="Resources\Images\warhammeraos.jpg" />
 	  <None Remove="Resources\Splash\splashscreen.png" />
 	</ItemGroup>
@@ -95,6 +96,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\ArmyCreationPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\GamemodePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

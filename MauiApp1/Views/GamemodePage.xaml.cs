@@ -21,15 +21,15 @@ public partial class GamemodePage : ContentPage
         return true;
     }
 
-    private void OnCampaignButtonClicked(object sender, EventArgs e)
+    private async void OnCampaignButtonClicked(object sender, EventArgs e)
     {
 
-        Barrel.Current.EmptyAll();
+        await DisplayAlert("Campaign", "You clicked campaign", "OK");
     }
 
     private async void OnOpenPlayButtonClicked(object sender, EventArgs e)
     {
-        await DisplayAlert("debug", "open play has been clicked", "OK");
+        await DisplayAlert("Open Play", "Open play has been clicked", "OK");
 
         await Navigation.PushAsync(new OpenPlayPage());
     }

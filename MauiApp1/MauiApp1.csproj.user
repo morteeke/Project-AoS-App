@@ -11,6 +11,9 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="Views\ArmyCreationPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\GamemodePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

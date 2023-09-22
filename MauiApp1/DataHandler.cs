@@ -25,8 +25,6 @@ namespace MauiApp1
             //This has to be declared to use the caching. (so it doesn't conflict)
             Barrel.ApplicationId = "unique_app_id";
 
-            Barrel.Current.EmptyAll();
-
             //Here we delete the contents of all expired caches.
             Barrel.Current.EmptyExpired();
 
